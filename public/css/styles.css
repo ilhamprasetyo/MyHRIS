@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: normal;
+  margin-top: 80px;
+}
+
+#deskripsi, #ulasan{
+  border-top: 10px dotted;
+  width: 20%;
+}
+
+#result {
+  overflow-y: auto;
+  height: 300px;
+}
+
+#koordinator_menu, #option, #photo_frame, #view_photo_frame {
+  display: none;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.content {
+  margin: 100px auto;
+}
+
+.login-header {
+
+}
+
+.login-body {
+  margin: auto;
+  width: 400px;
+}
+
+.login-card {
+  padding: 10px;
+}
+
+.login-footer {
+  margin: auto;
+  width: 400px;
+}
+
+.ulasan-body {
+  margin: auto;
+  width: 600px;
+}
+
+.form-header {
+  margin: 100px 0 100px 0;
+}
+
+.photo {
+  width: 50px;
+}
+
+.photo-profile {
+  margin: auto;
+  width: 180px;
+}
+
+.photo-profile-show {
+  width: auto;
+}
+
+.check {
+  margin: auto;
+  width: 400px;
+}
+
+.checked {
+  margin: auto;
+  width: 400px;
+}
+
+.reset_password {
+  margin: auto;
+  width: 400px;
+}
+
+.signup {
+  margin: auto;
+}
+
+.biodata {
+  margin: auto;
+}
+
+.reset-password-form {
+  margin:auto;
+  width: 400px;
+}
+
+div .content-description {
+  margin: 50px 0;
+}
+
+textarea {
+  resize: none;
+}
+
+.fix-column {
+  position: sticky !important;
+  right: 0;
+  background-color: #fff;
+}
+
+.icons {
+  font-size: 50px;
+}
+
+@media (max-width: 600px) {
+  .mobile {
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 100%;
+  }
+
+  .footer-body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .ulasan-body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .fix-column {
+    position: relative !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .scrollable-content-x {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}
